@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap");
 
 * {
   margin: 0;
@@ -6,13 +6,6 @@
   box-sizing: border-box;
   font-family: "Kalnia", serif;
 }
-
-/* body {
-  background: url('./assets/vandy5.jpg') no-repeat;
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-} */
 
 a {
   text-decoration: none;

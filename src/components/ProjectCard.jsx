@@ -1,7 +1,7 @@
 // src/components/ProjectCard.js
-import React, { useState, useEffect, useRef } from 'react';
-import { MDCRipple } from '@material/ripple';
-import './ProjectCard.css'; // Import the CSS file
+import React, { useState, useEffect, useRef } from "react";
+import { MDCRipple } from "@material/ripple";
+import "./ProjectCard.css"; // Import the CSS file
 
 export const ProjectCard = ({ project }) => {
   const [expanded, setExpanded] = useState(false);
@@ -25,15 +25,14 @@ export const ProjectCard = ({ project }) => {
     <div className="mdc-layout-grid__cell mdc-layout-grid__cell--span-4">
       <div className="mdc-card project-card">
         <div className="mdc-card__primary-action" tabIndex="0">
-      
-            <div className="project-card__image-wrapper">
-              <img
-                src={project.imageSrc}
-                alt={project.title}
-                className="project-card__image"
-              />
-            </div>
-         
+          <div className="project-card__image-wrapper">
+            <img
+              src={project.imageSrc}
+              alt={project.title}
+              className="project-card__image"
+            />
+          </div>
+
           <div className="mdc-card__primary">
             <h2 className="mdc-typography mdc-typography--headline6">
               {project.title}
@@ -56,7 +55,7 @@ export const ProjectCard = ({ project }) => {
           >
             <div className="mdc-button__ripple"></div>
             <span className="mdc-button__label">
-              {expanded ? 'Show Less' : 'Learn More'}
+              {expanded ? "Show Less" : "Learn More"}
             </span>
           </button>
           <button
