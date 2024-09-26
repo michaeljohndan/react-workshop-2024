@@ -7,6 +7,13 @@
   font-family: "Kalnia", serif;
 }
 
+body {
+  background: url('./assets/vandy5.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
 a {
   text-decoration: none;
   
