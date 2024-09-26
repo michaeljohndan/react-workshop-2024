@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* width: 100%; */
+  overflow-x: hidden;
+}
+
+.landing-container {
+  position: relative;
+  /* top: 0;
+  left: -50; */
+  background: url('../assets/vandy5.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+
+/* .landing-content {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  border-radius: 10px;
+} */
+
+/* .headshot {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 2rem;
+}
+
+.landing-text {
+  color: white;
+  text-align: left;
+}
+
+.landing-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.landing-text p {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+} */

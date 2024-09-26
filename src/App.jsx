@@ -2,13 +2,20 @@ import React from 'react'
 import './App.css'
 
 import { Navbar } from './components/Navbar'
+import { Landing } from './components/Landing'
 import { ProjectList } from './components/ProjectList'
+
+// import CssBaseline from '@mui/material/CssBaseline';
+
+
 
 function App() {
 
   return (
     <>
-      <Navbar/>
+      {/* <CssBaseline/> */}
+      <Landing/>
+      <Navbar />
       <ProjectList />
     </>
   )
