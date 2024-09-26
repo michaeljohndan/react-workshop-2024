@@ -1,6 +1,7 @@
 .socials-div {
   margin: 2em auto;
   text-align: center;
+  color: rgb(17, 31, 66);
 }
 
 .connect {
@@ -13,8 +14,4 @@
 
 .media {
   display: inline-block;
-}
-
-h1 {
-  color: rgb(17, 31, 66);
 }
