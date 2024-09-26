@@ -14,3 +14,7 @@
 .media {
   display: inline-block;
 }
+
+h1 {
+  color: rgb(17, 31, 66);
+}
