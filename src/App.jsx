@@ -8,6 +8,10 @@ function App() {
   return (
     <>
       <Navbar/>
+      {/* <Landing/> */}
+      {/* <About/> */}
+      {/* <Projects/> */}
+      {/* <Socials/> */}
     </>
   )
 }
