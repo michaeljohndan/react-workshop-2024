@@ -2,17 +2,14 @@ import React from 'react'
 import './App.css'
 
 import { Navbar } from './components/Navbar'
-import { Landing } from './components/Landing'
+import { ProjectList } from './components/ProjectList'
 
 function App() {
 
   return (
     <>
       <Navbar/>
-      <Landing/>
-      {/* <About/> */}
-      {/* <Projects/> */}
-      {/* <Contact/> */}
+      <ProjectList />
     </>
   )
 }
