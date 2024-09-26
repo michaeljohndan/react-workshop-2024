@@ -20,15 +20,15 @@ body {
 }
 
 
-/* .landing-content {
+.landing-content {
   display: flex;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(224, 213, 192, 0.6);
   padding: 2rem;
   border-radius: 10px;
-} */
+}
 
-/* .headshot {
+.headshot {
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -37,7 +37,7 @@ body {
 }
 
 .landing-text {
-  color: white;
+  color: black;
   text-align: left;
 }
 
@@ -49,4 +49,4 @@ body {
 .landing-text p {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
-} */
+}
